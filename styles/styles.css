@@ -361,14 +361,17 @@ h6 {
 
 
 footer {
-
-  background-color: #f77f00;
+  width: 100% ;
+  background-color: #2d06a3;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
+
+
 
 
 
