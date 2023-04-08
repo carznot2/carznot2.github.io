@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mukta:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mukta:wghmenut@400;700&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -61,11 +61,11 @@ a {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: var(--header-height) 1fr;
 
-  background-color: #eae2b7
+  background-color: #2d06a3;
 }
 
 nav a {
-  color: var(--accent2-color);
+  color: var(--accent1-color);
   padding: 1em;
 }
 nav a:hover {
@@ -184,18 +184,18 @@ nav a:hover {
   text-align: center;
 }
 .sub-headline h1 {
-  color: #800000;
+  color: #eae2b7;
 }
 .menu {
   grid-row: 4;
-  grid-column: 2;
+  grid-column: 1;
 
 }
 
 .menu-grid {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
@@ -232,7 +232,7 @@ nav a:hover {
   grid-column: 2;
   text-align: center;
   align-self: center;
-  color: red;
+  color: accent2
   
 }
 
@@ -436,7 +436,7 @@ footer a:hover {
 }
 
 .see:hover {
-  background-color: purple;
+  background-color:#f44336;
   color: white;
 }
 
@@ -490,7 +490,7 @@ footer a:hover {
 }
 
 .trade:hover {
-  background: green;
+  background: navy;
   color: white;
 }
 
