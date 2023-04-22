@@ -26,10 +26,11 @@
   --nav-hover-link-color: #003049;
   --nav-hover-background-color: #eae2b7;
 
-  --header-height: 250px;
+  --header-height: 350px;
 }
 * {
   box-sizing: border-box;
+  border-radius: 15px;
 }
 a {
   text-decoration: none;
@@ -45,13 +46,19 @@ a {
   display: grid;
   grid-template-rows: var(--header-height) 1fr 30px;
   grid-template-columns: 1fr;
+  border-radius: 20px;
 }
 
 .header {
   grid-row: 1;
   grid-column: 1;
+  border: 6px solid orange;
+  align-items: center;
+  border-radius: 20px;
 
 }
+
+
 
 
 
