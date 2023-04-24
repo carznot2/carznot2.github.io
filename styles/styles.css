@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 .content {
-  font-family: Mukta, Helvetica, sans-serif;
+  font-family: 'Baloo Tamma 2', Arial, sans-serif;
   color: var(--primary-color);
   max-width: 1600px;
   margin: 0 auto;
