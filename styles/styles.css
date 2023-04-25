@@ -36,7 +36,7 @@ a {
   text-decoration: none;
 }
 .content {
-  font-family: 'Baloo Tamma 2', Arial, sans-serif;
+  font-family: 'Arial', Helvetica, Verdana;
   color: var(--primary-color);
   max-width: 1600px;
   margin: 0 auto;
@@ -99,12 +99,13 @@ nav a:hover {
   grid-row: 1;
   grid-column: 1;
 
-  padding: 0;
+  
 }
 
 .pickup-card {
   grid-row: 2;
   grid-column: 1;
+  
 }
 
 .cube-card {
