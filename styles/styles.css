@@ -26,7 +26,8 @@
   --nav-hover-link-color: #003049;
   --nav-hover-background-color: #eae2b7;
 
-  --header-height: 350px;
+  --header-height: 450px;
+  width: 100%;
 }
 * {
   box-sizing: border-box;
@@ -38,7 +39,7 @@ a {
 .content {
   font-family: 'Arial', Helvetica, Verdana;
   color: var(--primary-color);
-  max-width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
   
 }
@@ -56,8 +57,8 @@ a {
   border: 6px solid orange;
   align-items: center;
   border-radius: 20px;
-  width:80%;
-  
+
+  margin: 2%;
 
 }
 
@@ -92,7 +93,7 @@ nav a:hover {
 .main-grid {
   display: grid;
 
-  grid-template-rows: 500px 500px 500px 500px 1fr 50px;
+  grid-template-rows: auto auto auto auto 1fr 50px;
   grid-template-columns: 1fr;
 
 }
@@ -111,10 +112,10 @@ nav a:hover {
   
 }
 
-.cube-card {
+/* .cube-card {
   grid-row: 2;
   grid-column: 1;
-}
+} */
 
 .suv-card {
   grid-row: 3;
@@ -131,8 +132,8 @@ nav a:hover {
 .card-grid {
   display: grid;
 
-  grid-template-columns: 400px 1fr 300px;
-  margin: 0;
+  grid-template-columns: 600px 1fr;
+  margin:0;
   padding-right: 10rem;
   padding-left: 3rem;
 
@@ -152,7 +153,10 @@ nav a:hover {
 .card-img {
   grid-row: 1/4;
   grid-column: 1;
-  width: 100%;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  /* width: 100%; */
 
 }
 
@@ -291,7 +295,7 @@ form {
   background-color: #eae2b7;
 }
 
-top:;
+/* top:; */
 
 ul {
   list-style: none;
@@ -329,6 +333,8 @@ textarea:focus {
   /* Additional highlight for focused elements */
   border-color: #000;
 }
+
+
 
 textarea {
   /* Align multiline text fields with their labels */
@@ -378,7 +384,8 @@ h6 {
 
 
 footer {
-  width: 80%; ;
+  margin: 2%;
+  /* width: 80%; ; */
   background-color: #2d06a3;
   padding: 25px 50px;
   margin-top: 200px;
@@ -386,6 +393,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   color: white;
+  
 }
 
 
@@ -418,6 +426,8 @@ footer a:hover {
   padding: 14px 28px;
   font-size: 30px;
   cursor: pointer;
+  margin: 3%;
+  
 }
 
 .btn2 {
@@ -428,6 +438,7 @@ footer a:hover {
   padding: 7px 14px;
   font-size: 30px;
   cursor: pointer;
+  
 
 }
 
@@ -481,11 +492,12 @@ footer a:hover {
 .list {
   border-color: black;
   color: white;
-  height: 150px;
-  width: 15%;
+  height: 190px;
+  width: 190px;
   background: black;
   border-radius: 50%;
   text-align: center;
+  
 }
 
 .list:hover {
@@ -495,14 +507,17 @@ footer a:hover {
 
 .btn2-row {
   justify-self: center;
+  border-radius: 50%;
 }
 /* Gray */
 .trade {
   border-color: black;
   color: white;
-  height: 150px;
+ 
   background: black;
   border-radius: 50%;
+  height: 220px;
+  width: 220px;
   text-align: center;
 }
 
