@@ -57,7 +57,7 @@ a {
   border: 6px solid orange;
   align-items: center;
   border-radius: 20px;
-
+  
   margin: 2%;
 
 }
@@ -72,7 +72,7 @@ a {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: var(--header-height) 1fr;
 
-  background-color: #2d06a3;
+  background-color: #003049;
 }
 
 nav a {
@@ -387,22 +387,22 @@ h6 {
 
 
 footer {
-  margin: 2%;
+
   /* width: 80%; ; */
-  background-color: #2d06a3;
+  background-color: ivory;
   padding: 25px 50px;
-  margin-top: 200px;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  color: black;
   /* grid-row: 1;
   grid-column: 1; */
-  border: 6px solid orange;
+  border: 6px solid grey;
   align-items: center;
   border-radius: 20px;
+  width: 100%;
 
-  margin: 2%;
   
 }
 
